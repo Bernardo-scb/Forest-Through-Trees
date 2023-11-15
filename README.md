@@ -1,8 +1,8 @@
-# Forest-Trhough-Trees
+# Forest-Through-Trees
 This Projects is Contains functions to create AP-trees portfolios, and  to performs robust mean variance optimization on them.
 
 1.  AP-Trees are based on Bryzgalova et. all (2021) and sort assets into managed portofolios using observable characteristics at time (t-1) it consists basically on recursively splitting the cross section of assets on the median, with respect tocharacteristic, up a prespecified depth.
-2. Bryzgalova et. all (2021) aims to recover the SDF from this tree portfolios, so they propose a robust mean variance optimization algorithm, to select the SDF weights.
+2. Bryzgalova et al. (2021) aims to recover the SDF from this tree portfolios, so they propose a robust mean variance optimization algorithm, to select the SDF weights.
 3. In this project we provid this original algorithm, but we advocate for using as an input a covarianca matrix based on a technique for dimension reduction (Factor Models), in particular we use the POET estimator from Fan, Liao, and Mincheva (2013) to build an input for the covariance Matrix.
 4. Furthermore, this project contains functions to estimate a multivariate Factor GARCH models, which enables to estimate large dimension conditional covariance matrices
 
