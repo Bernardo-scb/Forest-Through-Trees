@@ -1,5 +1,5 @@
 ########################################
-# Title: Forest trough Trees Functions
+# Title: Forest through Trees Functions
 #
 # Author: Bernardo Scarpelli
 #
